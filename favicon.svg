@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <rect width="120" height="120" rx="24" fill="#0d1117"/>
+  <!-- три цветных круга как в цветовой теории -->
+  <circle cx="45" cy="45" r="28" fill="#818cf8" opacity="0.9"/>
+  <circle cx="75" cy="45" r="28" fill="#f472b6" opacity="0.9"/>
+  <circle cx="60" cy="72" r="28" fill="#34d399" opacity="0.9"/>
+  <!-- центральное пересечение -->
+  <circle cx="60" cy="54" r="10" fill="#ffffff" opacity="0.9"/>
+</svg>

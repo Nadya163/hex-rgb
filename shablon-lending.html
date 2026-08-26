@@ -1,0 +1,165 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Палитра для лендинга и посадочной страницы — подбор цветов | hex-rgb.ru</title>
+<meta name="description" content="Подберите цветовую схему для лендинга: акцент, hero-секция, CTA-кнопки. Живой макет покажет результат сразу.">
+<link rel="canonical" href="https://hex-rgb.ru/shablon-lending.html">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Палитра для лендинга и посадочной страницы — подбор цветов | hex-rgb.ru">
+<meta property="og:description" content="Подберите цветовую схему для лендинга: акцент, hero-секция, CTA-кнопки. Живой макет покажет результат сразу.">
+<meta property="og:url" content="https://hex-rgb.ru/shablon-lending.html">
+<link rel="icon" type="image/svg+xml" href="./favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/style.css">
+<script>
+window.PAGE_CONFIG = {mockupType: "landing", defaultColors: {"accent": "#7c3aed", "bg": "#faf5ff", "surface": "#ede9fe", "text": "#1e1b4b"}};
+</script>
+</head>
+<body>
+<!-- YANDEX_METRIKA -->
+
+<header class="site-header">
+  <div class="inner">
+    <a href="./index.html" class="brand">
+      <img src="./favicon.svg" alt="HEX-RGB">
+      <span>HEX-RGB</span>
+    </a>
+    <nav class="site-nav">
+      <a href="./index.html">Конвертер</a>
+      <a href="./shablon-magazin.html">Магазин</a>
+      <a href="./shablon-blog.html">Блог</a>
+      <a href="./shablon-lending.html" class="active">Лендинг</a>
+      <a href="./shablon-dashboard.html">Дашборд</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <h1>Цвета для лендинга и посадочной страницы</h1>
+  <p>Цвет лендинга влияет на конверсию. Подберите акцент, hero-фон и CTA прямо здесь — макет обновится в реальном времени.</p>
+</div>
+
+    <div class="tool-wrap">
+      <!-- CONVERTER -->
+      <div class="converter">
+        <div class="roles">
+          <button class="role-btn active" data-role="accent"><span class="role-dot"></span>Акцент</button>
+          <button class="role-btn" data-role="bg"><span class="role-dot"></span>Фон</button>
+          <button class="role-btn" data-role="surface"><span class="role-dot"></span>Поверхность</button>
+          <button class="role-btn" data-role="text"><span class="role-dot"></span>Текст</button>
+        </div>
+
+        <div class="swatch-wrap">
+          <div class="swatch">
+            <div class="swatch-checkers"></div>
+            <div class="swatch-color"></div>
+          </div>
+        </div>
+
+        <div class="formats">
+          <div class="fmt-row">
+            <span class="fmt-label">HEX</span>
+            <div class="fmt-inputs"><input id="inp-hex" type="text" placeholder="#6366F1" maxlength="7"></div>
+            <button class="copy-btn" id="copy-hex">Копировать</button>
+          </div>
+          <div class="fmt-row">
+            <span class="fmt-label">RGB</span>
+            <div class="fmt-inputs">
+              <input id="inp-r" type="number" min="0" max="255" placeholder="R">
+              <input id="inp-g" type="number" min="0" max="255" placeholder="G">
+              <input id="inp-b" type="number" min="0" max="255" placeholder="B">
+            </div>
+            <button class="copy-btn" id="copy-rgb">Копировать</button>
+          </div>
+          <div class="fmt-row">
+            <span class="fmt-label">HSL</span>
+            <div class="fmt-inputs">
+              <input id="inp-h" type="number" min="0" max="360" placeholder="H">
+              <input id="inp-s" type="number" min="0" max="100" placeholder="S%">
+              <input id="inp-l" type="number" min="0" max="100" placeholder="L%">
+            </div>
+            <button class="copy-btn" id="copy-hsl">Копировать</button>
+          </div>
+          <div class="fmt-row">
+            <span class="fmt-label">CMYK</span>
+            <div class="fmt-inputs">
+              <input id="inp-c" type="number" min="0" max="100" placeholder="C%">
+              <input id="inp-m" type="number" min="0" max="100" placeholder="M%">
+              <input id="inp-y" type="number" min="0" max="100" placeholder="Y%">
+              <input id="inp-k" type="number" min="0" max="100" placeholder="K%">
+            </div>
+            <button class="copy-btn" id="copy-cmyk">Копировать</button>
+          </div>
+        </div>
+        <p class="privacy">🔒 Всё работает в браузере — данные никуда не отправляются</p>
+      </div>
+
+      <!-- MOCKUP -->
+      <div class="mockup-panel">
+        <div class="mockup-header">
+          <span class="mockup-title">Предпросмотр макета</span>
+          <div class="mockup-tabs">
+            <button class="mock-tab " data-mock="shop">Магазин</button>
+            <button class="mock-tab " data-mock="blog">Блог</button>
+            <button class="mock-tab active" data-mock="landing">Лендинг</button>
+            <button class="mock-tab " data-mock="dashboard">Дашборд</button>
+          </div>
+        </div>
+        <div class="mockup-body">
+          <div class="mockup"></div>
+        </div>
+      </div>
+    </div>
+
+<div class="article-grid">
+  <div class="article-card">
+    <h2>Цвет hero-секции и конверсия</h2>
+    <p>Hero — первый экран лендинга, и его цвет задаёт тон всей странице.
+    Яркий акцентный фон hero (как в нашем макете лендинга) создаёт контраст
+    с остальной страницей и приковывает внимание к главному сообщению.</p>
+    <p>Белая кнопка на цветном фоне — один из самых конверсионных паттернов.
+    Она выделяется за счёт инверсии: фон яркий → кнопка светлая. Тестируйте
+    разные оттенки акцента в нашем конвертере, не выходя из браузера.</p>
+  </div>
+  <div class="article-card">
+    <h2>CTA-кнопка: цвет и психология</h2>
+    <p>Кнопка призыва к действию (CTA) должна быть самым заметным интерактивным
+    элементом на странице. Несколько правил:</p>
+    <p><strong>Контраст:</strong> кнопка должна отличаться от фона минимум на 4.5:1.
+    <strong>Уникальность:</strong> не используйте цвет кнопки где-либо ещё на странице.
+    <strong>Состояния:</strong> hover-состояние — на 10–15% темнее основного цвета
+    (уменьшите L в HSL на 10).</p>
+  </div>
+</div>
+
+<div class="faq-wrap">
+  <h2>Вопросы про цвета для лендинга</h2>
+  <div class="faq-item"><h3>Тёмный или светлый фон лендинга лучше конвертирует?</h3>
+  <p>Зависит от ниши и аудитории. Тёмный фон (тёмно-синий, чёрный) хорошо работает для SaaS, технологий, игр — создаёт ощущение премиальности. Светлый — универсален, лучше для B2C и первого запуска без A/B-тестов.</p></div>
+  <div class="faq-item"><h3>Как выбрать цвет для секции с отзывами?</h3>
+  <p>Секция отзывов должна быть нейтральной — не конкурировать с CTA. Используйте поверхностный цвет (--m-surface в нашем макете): чуть темнее или светлее основного фона. Это визуально разбивает страницу без лишнего шума.</p></div>
+  <div class="faq-item"><h3>Сколько CTA-кнопок на лендинге?</h3>
+  <p>1–3 кнопки с одинаковым акцентным цветом: в hero, в середине и в конце страницы. Все — одного цвета и стиля. Второстепенные действия (например, «Узнать больше») оформляйте как текстовую ссылку или ghost-кнопку, чтобы не конкурировать с основным CTA.</p></div>
+</div>
+
+<div class="related-wrap">
+  <h2>Другие макеты</h2>
+  <div class="related-links">
+    <a href="./index.html">Конвертер</a>
+    <a href="./shablon-magazin.html">Магазин</a>
+    <a href="./shablon-blog.html">Блог</a>
+    <a href="./shablon-dashboard.html">Дашборд</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  HEX-RGB · Конвертер цветов онлайн · hex-rgb.ru
+</footer>
+
+<script src="./assets/tool.js"></script>
+</body>
+</html>

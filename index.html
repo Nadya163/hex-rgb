@@ -1,0 +1,164 @@
+<!doctype html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Конвертер цветов HEX RGB HSL CMYK онлайн — hex-rgb.ru</title>
+<meta name="description" content="Бесплатный конвертер цветов: переводите HEX в RGB, HSL и CMYK онлайн. Живой макет показывает как цвет выглядит на реальном сайте.">
+<link rel="canonical" href="https://hex-rgb.ru/">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Конвертер цветов HEX RGB HSL CMYK онлайн — hex-rgb.ru">
+<meta property="og:description" content="Бесплатный конвертер цветов: переводите HEX в RGB, HSL и CMYK онлайн. Живой макет показывает как цвет выглядит на реальном сайте.">
+<meta property="og:url" content="https://hex-rgb.ru/">
+<link rel="icon" type="image/svg+xml" href="./favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500&family=Manrope:wght@700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="./assets/style.css">
+<script>
+window.PAGE_CONFIG = {mockupType: "shop", defaultColors: {"accent": "#6366f1", "bg": "#ffffff", "surface": "#f1f5f9", "text": "#1e293b"}};
+</script>
+</head>
+<body>
+<!-- YANDEX_METRIKA -->
+
+<header class="site-header">
+  <div class="inner">
+    <a href="./index.html" class="brand">
+      <img src="./favicon.svg" alt="HEX-RGB">
+      <span>HEX-RGB</span>
+    </a>
+    <nav class="site-nav">
+      <a href="./index.html" class="active">Конвертер</a>
+      <a href="./shablon-magazin.html">Магазин</a>
+      <a href="./shablon-blog.html">Блог</a>
+      <a href="./shablon-lending.html">Лендинг</a>
+      <a href="./shablon-dashboard.html">Дашборд</a>
+    </nav>
+  </div>
+</header>
+
+<div class="hero">
+  <h1>Конвертер цветов HEX / RGB / HSL / CMYK</h1>
+  <p>Введите цвет в любом формате — получите все остальные мгновенно. Выберите элемент макета и подберите палитру прямо в браузере.</p>
+</div>
+
+    <div class="tool-wrap">
+      <!-- CONVERTER -->
+      <div class="converter">
+        <div class="roles">
+          <button class="role-btn active" data-role="accent"><span class="role-dot"></span>Акцент</button>
+          <button class="role-btn" data-role="bg"><span class="role-dot"></span>Фон</button>
+          <button class="role-btn" data-role="surface"><span class="role-dot"></span>Поверхность</button>
+          <button class="role-btn" data-role="text"><span class="role-dot"></span>Текст</button>
+        </div>
+
+        <div class="swatch-wrap">
+          <div class="swatch">
+            <div class="swatch-checkers"></div>
+            <div class="swatch-color"></div>
+          </div>
+        </div>
+
+        <div class="formats">
+          <div class="fmt-row">
+            <span class="fmt-label">HEX</span>
+            <div class="fmt-inputs"><input id="inp-hex" type="text" placeholder="#6366F1" maxlength="7"></div>
+            <button class="copy-btn" id="copy-hex">Копировать</button>
+          </div>
+          <div class="fmt-row">
+            <span class="fmt-label">RGB</span>
+            <div class="fmt-inputs">
+              <input id="inp-r" type="number" min="0" max="255" placeholder="R">
+              <input id="inp-g" type="number" min="0" max="255" placeholder="G">
+              <input id="inp-b" type="number" min="0" max="255" placeholder="B">
+            </div>
+            <button class="copy-btn" id="copy-rgb">Копировать</button>
+          </div>
+          <div class="fmt-row">
+            <span class="fmt-label">HSL</span>
+            <div class="fmt-inputs">
+              <input id="inp-h" type="number" min="0" max="360" placeholder="H">
+              <input id="inp-s" type="number" min="0" max="100" placeholder="S%">
+              <input id="inp-l" type="number" min="0" max="100" placeholder="L%">
+            </div>
+            <button class="copy-btn" id="copy-hsl">Копировать</button>
+          </div>
+          <div class="fmt-row">
+            <span class="fmt-label">CMYK</span>
+            <div class="fmt-inputs">
+              <input id="inp-c" type="number" min="0" max="100" placeholder="C%">
+              <input id="inp-m" type="number" min="0" max="100" placeholder="M%">
+              <input id="inp-y" type="number" min="0" max="100" placeholder="Y%">
+              <input id="inp-k" type="number" min="0" max="100" placeholder="K%">
+            </div>
+            <button class="copy-btn" id="copy-cmyk">Копировать</button>
+          </div>
+        </div>
+        <p class="privacy">🔒 Всё работает в браузере — данные никуда не отправляются</p>
+      </div>
+
+      <!-- MOCKUP -->
+      <div class="mockup-panel">
+        <div class="mockup-header">
+          <span class="mockup-title">Предпросмотр макета</span>
+          <div class="mockup-tabs">
+            <button class="mock-tab active" data-mock="shop">Магазин</button>
+            <button class="mock-tab " data-mock="blog">Блог</button>
+            <button class="mock-tab " data-mock="landing">Лендинг</button>
+            <button class="mock-tab " data-mock="dashboard">Дашборд</button>
+          </div>
+        </div>
+        <div class="mockup-body">
+          <div class="mockup"></div>
+        </div>
+      </div>
+    </div>
+
+<div class="article-grid">
+  <div class="article-card">
+    <h2>Что такое HEX-цвет</h2>
+    <p>HEX — шестнадцатеричная запись цвета, используемая в HTML и CSS. Формат #RRGGBB,
+    где каждая пара символов задаёт интенсивность красного, зелёного и синего канала
+    от 00 (0) до FF (255). Например, #FF0000 — чистый красный.</p>
+    <p>Короткая запись #RGB раскрывается в #RRGGBB: #F0A превращается в #FF00AA.
+    HEX — самый распространённый формат в веб-разработке.</p>
+  </div>
+  <div class="article-card">
+    <h2>Чем отличаются RGB, HSL и CMYK</h2>
+    <p><strong>RGB</strong> (Red, Green, Blue) — аддитивная модель для экранов. Значения 0–255.
+    <strong>HSL</strong> (Hue, Saturation, Lightness) — удобна дизайнерам: интуитивно
+    понятно менять насыщенность или яркость не трогая оттенок.
+    <strong>CMYK</strong> (Cyan, Magenta, Yellow, Key/Black) — субтрактивная модель для печати.</p>
+    <p>При переводе RGB→CMYK и обратно возможна погрешность — цветовые охваты экрана
+    и принтера не совпадают.</p>
+  </div>
+</div>
+
+<div class="faq-wrap">
+  <h2>Частые вопросы про конвертер цветов</h2>
+  <div class="faq-item"><h3>Как перевести HEX в RGB вручную?</h3>
+  <p>Разбейте HEX на три пары: #1A2B3C → 1A, 2B, 3C. Каждую пару переведите из шестнадцатеричной в десятичную: 1A=26, 2B=43, 3C=60. Результат: rgb(26, 43, 60). Конвертер делает это мгновенно.</p></div>
+  <div class="faq-item"><h3>Что значит альфа-канал (RGBA, HSLA)?</h3>
+  <p>Четвёртый параметр — прозрачность от 0 (полностью прозрачный) до 1 (непрозрачный). rgba(99,102,241,0.5) — акцентный цвет с 50% прозрачностью. Конвертер работает с непрозрачными цветами, альфа добавляется вручную.</p></div>
+  <div class="faq-item"><h3>Почему цвет на экране не совпадает с печатью?</h3>
+  <p>Экраны работают в RGB (аддитивный синтез), принтеры — в CMYK (субтрактивный). Цвета, которые экран легко воспроизводит (яркий синий, неоновый зелёный), в CMYK часто выглядят тусклее. Для точной печати используйте цвета из палитр Pantone с готовыми CMYK-значениями.</p></div>
+</div>
+
+<div class="related-wrap">
+  <h2>Другие макеты</h2>
+  <div class="related-links">
+    <a href="./shablon-magazin.html">Магазин</a>
+    <a href="./shablon-blog.html">Блог</a>
+    <a href="./shablon-lending.html">Лендинг</a>
+    <a href="./shablon-dashboard.html">Дашборд</a>
+  </div>
+</div>
+
+<footer class="site-footer">
+  HEX-RGB · Конвертер цветов онлайн · hex-rgb.ru
+</footer>
+
+<script src="./assets/tool.js"></script>
+</body>
+</html>
